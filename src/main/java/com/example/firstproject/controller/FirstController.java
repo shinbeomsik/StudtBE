@@ -9,7 +9,7 @@ public class FirstController {
 	
 	@GetMapping("/hi")
 	public String niceToMeetYou(Model model) {
-		model.addAttribute("username","우리가");
+		model.addAttribute("username","철수");
 		return "greetings";
 	}
 }
