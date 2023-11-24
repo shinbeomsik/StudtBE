@@ -6,10 +6,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@Entity
+@Entity        
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
@@ -21,7 +23,5 @@ public class Article {
 	private String title;
 	@Column
 	private String content;
-	
-	
-	
+               
 }
