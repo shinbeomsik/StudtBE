@@ -3,8 +3,14 @@ package com.example.firstproject.dto;
 import com.example.firstproject.entity.Article;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
+@NoArgsConstructor
+@Getter
+@Setter
 @AllArgsConstructor
 @ToString
 public class ArticleForm {
